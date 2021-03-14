@@ -1,0 +1,122 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+.example-block{
+
+}
+.example-string{
+
+}
+
+.arr {
+    width: 100%;
+
+    background: url('images/fon2.png');
+    background-size: cover;
+}
+.err {
+    width: 100%;
+    position: relative;
+    background: url('images/fon1.png') center no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+.container1{
+    width: 100%;
+    max-width: 1100px;
+margin: 0 auto; 
+}
+.katetext{
+    text-align: center;
+    font-size: 37px;
+    color: white;
+    font-family: IBM Plex Serif;
+    padding-top: 100px;
+    line-height: 117.28%;
+    font-style: normal;
+font-weight: normal;
+letter-spacing: 0.08em;
+    
+
+    ;
+}
+
+.container2{
+
+    width: 1369px;
+    margin:0 auto;
+    padding-bottom: 50px;
+}
+
+.tr1{
+
+    margin-top: -980px; 
+    margin-left: -5px;
+    position: relative; 
+    z-index: -3;
+    width: 65%;
+    height: 65%;
+  }
+
+  .tr2{
+
+    margin-top: -900px; 
+    margin-left: 550px;
+    position: relative; 
+    z-index: -2;
+
+
+
+  }
+
+.ph1{
+    width: 985px;
+    height: 539,99px;
+margin-left: 10px;
+margin-top: 52px; position: relative;
+z-index: 1
+}
+.ph2{
+    width: 550,78px;
+    height: 391,31px;
+    margin-left: 670px;
+    margin-top: -230px; position: relative;
+    z-index: 2 }
+.ph3{
+    width: 30%;
+    height: 30%;
+    margin-left: 410px;
+    margin-top: -280px; position: relative;
+    z-index: 3;
+}
+
